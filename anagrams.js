@@ -9,18 +9,19 @@ function alphabetize(word) {
 
     // Testing on 3 words (lair, liar, rail, dog) //
     let word="liar";
-    let dictionary = ['rail', 'liar', 'rail', 'dog'];
-    for (i=0; i<4; i++){
-        alphabetize(dictionary[i])
+    let dictionary = ['rail', 'dog', 'lair', 'liar'];
+    for (i=0; i<=4; i++){
+        alphabetize(dictionary[i]);
         if(alphabetize(word) === alphabetize(dictionary[i])) {
-            console.log(dictionary[i] + ", ")
+            
+             document.write((dictionary[i]) + ",  ");
         }
        
-       
+    }  
     
       
         
-    }
+    
  
 
 
