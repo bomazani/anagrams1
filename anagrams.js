@@ -5,8 +5,6 @@ function alphabetize(word) {
 // adds function to the user button //
 document.getElementById("findButton").onclick = function() {
     let typedText = document.getElementById("input").value;
-
-    // Testing on 3 words (lair, liar, rail, dog) //
     
     for (i=0; i<words.length; i++){
         let dictionary = words[i];
